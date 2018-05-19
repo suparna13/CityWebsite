@@ -1,0 +1,30 @@
+.outerbox
+{
+    width: 450px;
+
+    height: 200px;
+    overflow:hidden;
+    
+}
+#sliderbox
+{
+position: absolute;
+    width: 1800px;
+    padding-top: 40px;
+    animation-name: WEBSITE;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img
+{
+    float: left;
+}
+@keyframes WEBSITE
+    {
+        from{
+            left: 0px;
+        }
+        to{
+            left: -450px;
+        }
+    }
