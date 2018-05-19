@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MAZA SATARA</title>
+
+        <link href="slider.css" rel="stylesheet">
+  <style>
+  ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li 
+  {
+    float: left;
+  }
+
+  li a 
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) 
+  {
+    background-color: #555;
+  }
+  
+  .active 
+  {
+    background-color: #4CAF50;
+  }
+
+  .topnav .search-container {
+  float: right;
+}
+
+  input[type=text] {
+    float: left;
+    width: 100px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    padding-right: 0px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 12px 20px 12px 40px; 
+  padding-right: 10px;
+  /*margin-top: 2px;*/
+  /*margin-bottom: 2px;*/
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+  }
+  table {
+    border-collapse: collapse;
+    /*width: 30%;*/
+}
+
+th, td {
+    height: 50px;
+    padding: 4px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    height: 280px;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+}
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+</style>
+</head>
+<body bgcolor="SlateBlue">
+
+  <h1><center>WELCOME TO SATARA</center></h1>
+
+<ul>
+  <div class="topnav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="https://timesofindia.indiatimes.com/topic/Satara-district">News</a></li>
+    <li><a href="file:///C:/Users/Admin/Desktop/WEBSITE/web2.html">Tourism</a></li>
+    <li><a href="file:///C:/Users/Admin/Desktop/WEBSITE/gallery.html">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Satara_(city)">About</a></li>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <button type="Submit">Submit</button>
+        <input type="text" name="search" placeholder="Search..">
+      </form>
+    </div>
+  </div>
+</ul>
+
+
+<div id="outerbox">
+      <div id="sliderbox">
+        <img class="slides" src="kass.jpg" style="width: 20%"/>
+        <img class="slides" src="panch.jpg" style="width: 20%"/>
+        <img class="slides" src="ajinkya.jpg" style="width: 20%"/>
+        <img class="slides" src="pratap.jpg" style="width: 20%"/>
+        <img class="slides" src="those.jpg" style="width: 20%"/>
+        
+      </div>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <p><h2><center>DISTRICT AT A GLANCE</center></h2></p>
+
+  <div class="row">
+    <div class="column left">
+      <table>
+  
+      <tr>
+        <th>Geographical location</th>
+        <td>North Latiitudes 17.5 to 18.11<br>East   Longitude   73.33 to 74.54</td>
+      </tr>
+  
+      <tr>
+        <th>Geographical Area </th>
+        <td>10480 (sq.km.)</td>
+        </tr>
+  
+      <tr>
+        <th>Climate</th>
+        <td>Min.Temp - 11.6 Celsius<br> Max.Temp - 37.5 Celsius</td>
+        </tr>
+
+      <tr>
+        <th>Average Rainfall</th>
+        <td>1426 MM</td>
+      </tr>
+
+      <tr>
+        <th>Population</th>
+        <td>3.004 million</td>
+        </tr>
+
+      </table>
+   </div>
+
+  <div class="column right" style="background-color:white;">
+    <h2> Capital Of The Maratha Empire In The 17th Century</h2>
+    <p> Satara district is located in the western part of Maharashtra. It is bounded by Pune district to the north, Solapur district to the east, Sangli district to the south and Ratnagiri district to the west. Raigad district lies to its north-west.</p>
+    <p>Satara district is situated in the river basins of  the Bhima and Krishna river. The physical settings of Satara shows a contrast of immense dimensions and reveals a variety of landscapes influenced by relief,climate and vegetation. The variation in relief ranges from  the pinnacles and high plateaus of main Sahyadrians range having height over 4500 feet above mean sea level to the subdued basin of the Nira river in Phaltan tahasils with the average height of about 1700 feet above mean sea level. The climate ranges from the rainiest in the Mahabaleshwar region, which has an average annual all of over 6000 mm to the driest in Man tahsil where the average annual rainfall is about 500 mm. The vegetal cover too varies from the typical monsoon forest in the western parts to scrub and poor grass  in the eastern parts.</p>
+  </div>
+
+</div>
+</body>
+</html>
